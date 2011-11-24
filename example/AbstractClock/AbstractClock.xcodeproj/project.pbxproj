@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5407D2114123FC300ED44A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5407D2014123FC300ED44A2 /* UIKit.framework */; };
+		B5407D2314123FC300ED44A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5407D2214123FC300ED44A2 /* Foundation.framework */; };
+		B5407D2514123FC300ED44A2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5407D2414123FC300ED44A2 /* CoreGraphics.framework */; };
+		B5407D2B14123FC300ED44A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5407D2914123FC300ED44A2 /* InfoPlist.strings */; };
+		B5407D2D14123FC300ED44A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5407D2C14123FC300ED44A2 /* main.m */; };
+		B5407D3114123FC300ED44A2 /* AbstractClockAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5407D3014123FC300ED44A2 /* AbstractClockAppDelegate.m */; };
+		B5407D431412446F00ED44A2 /* bonobono1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B5407D411412446F00ED44A2 /* bonobono1.jpeg */; };
+		B5407D441412446F00ED44A2 /* bonobono2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B5407D421412446F00ED44A2 /* bonobono2.jpeg */; };
+		B5ECC8BF14126E6600FB5526 /* MainControllerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5ECC8BE14126E6600FB5526 /* MainControllerView.m */; };
+		B5F84983141E355200E2232D /* OptionControllerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F84982141E355200E2232D /* OptionControllerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B5407D1C14123FC300ED44A2 /* AbstractClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AbstractClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5407D2014123FC300ED44A2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B5407D2214123FC300ED44A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B5407D2414123FC300ED44A2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B5407D2814123FC300ED44A2 /* AbstractClock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AbstractClock-Info.plist"; sourceTree = "<group>"; };
+		B5407D2A14123FC300ED44A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B5407D2C14123FC300ED44A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5407D2E14123FC300ED44A2 /* AbstractClock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AbstractClock-Prefix.pch"; sourceTree = "<group>"; };
+		B5407D2F14123FC300ED44A2 /* AbstractClockAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractClockAppDelegate.h; sourceTree = "<group>"; };
+		B5407D3014123FC300ED44A2 /* AbstractClockAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractClockAppDelegate.m; sourceTree = "<group>"; };
+		B5407D411412446F00ED44A2 /* bonobono1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bonobono1.jpeg; sourceTree = "<group>"; };
+		B5407D421412446F00ED44A2 /* bonobono2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bonobono2.jpeg; sourceTree = "<group>"; };
+		B5ECC8BD14126E6600FB5526 /* MainControllerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainControllerView.h; sourceTree = "<group>"; };
+		B5ECC8BE14126E6600FB5526 /* MainControllerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainControllerView.m; sourceTree = "<group>"; };
+		B5F84981141E355200E2232D /* OptionControllerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionControllerView.h; sourceTree = "<group>"; };
+		B5F84982141E355200E2232D /* OptionControllerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionControllerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5407D1914123FC300ED44A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5407D2114123FC300ED44A2 /* UIKit.framework in Frameworks */,
+				B5407D2314123FC300ED44A2 /* Foundation.framework in Frameworks */,
+				B5407D2514123FC300ED44A2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5407D1114123FC300ED44A2 = {
+			isa = PBXGroup;
+			children = (
+				B5407D401412445900ED44A2 /* Resources */,
+				B5407D2614123FC300ED44A2 /* AbstractClock */,
+				B5407D1F14123FC300ED44A2 /* Frameworks */,
+				B5407D1D14123FC300ED44A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5407D1D14123FC300ED44A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5407D1C14123FC300ED44A2 /* AbstractClock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5407D1F14123FC300ED44A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5407D2014123FC300ED44A2 /* UIKit.framework */,
+				B5407D2214123FC300ED44A2 /* Foundation.framework */,
+				B5407D2414123FC300ED44A2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5407D2614123FC300ED44A2 /* AbstractClock */ = {
+			isa = PBXGroup;
+			children = (
+				B5407D2F14123FC300ED44A2 /* AbstractClockAppDelegate.h */,
+				B5407D3014123FC300ED44A2 /* AbstractClockAppDelegate.m */,
+				B5407D2714123FC300ED44A2 /* Supporting Files */,
+				B5ECC8BD14126E6600FB5526 /* MainControllerView.h */,
+				B5ECC8BE14126E6600FB5526 /* MainControllerView.m */,
+				B5F84981141E355200E2232D /* OptionControllerView.h */,
+				B5F84982141E355200E2232D /* OptionControllerView.m */,
+			);
+			path = AbstractClock;
+			sourceTree = "<group>";
+		};
+		B5407D2714123FC300ED44A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5407D2814123FC300ED44A2 /* AbstractClock-Info.plist */,
+				B5407D2914123FC300ED44A2 /* InfoPlist.strings */,
+				B5407D2C14123FC300ED44A2 /* main.m */,
+				B5407D2E14123FC300ED44A2 /* AbstractClock-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5407D401412445900ED44A2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B5407D411412446F00ED44A2 /* bonobono1.jpeg */,
+				B5407D421412446F00ED44A2 /* bonobono2.jpeg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5407D1B14123FC300ED44A2 /* AbstractClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5407D3714123FC300ED44A2 /* Build configuration list for PBXNativeTarget "AbstractClock" */;
+			buildPhases = (
+				B5407D1814123FC300ED44A2 /* Sources */,
+				B5407D1914123FC300ED44A2 /* Frameworks */,
+				B5407D1A14123FC300ED44A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AbstractClock;
+			productName = AbstractClock;
+			productReference = B5407D1C14123FC300ED44A2 /* AbstractClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5407D1314123FC300ED44A2 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = B5407D1614123FC300ED44A2 /* Build configuration list for PBXProject "AbstractClock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B5407D1114123FC300ED44A2;
+			productRefGroup = B5407D1D14123FC300ED44A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5407D1B14123FC300ED44A2 /* AbstractClock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5407D1A14123FC300ED44A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5407D2B14123FC300ED44A2 /* InfoPlist.strings in Resources */,
+				B5407D431412446F00ED44A2 /* bonobono1.jpeg in Resources */,
+				B5407D441412446F00ED44A2 /* bonobono2.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5407D1814123FC300ED44A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5407D2D14123FC300ED44A2 /* main.m in Sources */,
+				B5407D3114123FC300ED44A2 /* AbstractClockAppDelegate.m in Sources */,
+				B5ECC8BF14126E6600FB5526 /* MainControllerView.m in Sources */,
+				B5F84983141E355200E2232D /* OptionControllerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B5407D2914123FC300ED44A2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5407D2A14123FC300ED44A2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5407D3514123FC300ED44A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B5407D3614123FC300ED44A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5407D3814123FC300ED44A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AbstractClock/AbstractClock-Prefix.pch";
+				INFOPLIST_FILE = "AbstractClock/AbstractClock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B5407D3914123FC300ED44A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AbstractClock/AbstractClock-Prefix.pch";
+				INFOPLIST_FILE = "AbstractClock/AbstractClock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5407D1614123FC300ED44A2 /* Build configuration list for PBXProject "AbstractClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5407D3514123FC300ED44A2 /* Debug */,
+				B5407D3614123FC300ED44A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5407D3714123FC300ED44A2 /* Build configuration list for PBXNativeTarget "AbstractClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5407D3814123FC300ED44A2 /* Debug */,
+				B5407D3914123FC300ED44A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5407D1314123FC300ED44A2 /* Project object */;
+}

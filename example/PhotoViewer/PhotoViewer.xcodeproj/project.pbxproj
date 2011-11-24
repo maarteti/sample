@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B51DFB501425EA0300EBAD20 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B51DFB4F1425EA0300EBAD20 /* UIKit.framework */; };
+		B51DFB521425EA0300EBAD20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B51DFB511425EA0300EBAD20 /* Foundation.framework */; };
+		B51DFB541425EA0300EBAD20 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B51DFB531425EA0300EBAD20 /* CoreGraphics.framework */; };
+		B51DFB5A1425EA0300EBAD20 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B51DFB581425EA0300EBAD20 /* InfoPlist.strings */; };
+		B51DFB5C1425EA0300EBAD20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B51DFB5B1425EA0300EBAD20 /* main.m */; };
+		B51DFB601425EA0300EBAD20 /* PhotoViewerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B51DFB5F1425EA0300EBAD20 /* PhotoViewerAppDelegate.m */; };
+		B51DFB631425EA0300EBAD20 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B51DFB611425EA0300EBAD20 /* MainWindow.xib */; };
+		B51DFB6C1425EA8800EBAD20 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B51DFB6B1425EA8800EBAD20 /* CoreMedia.framework */; };
+		B51DFB6F1425EB2C00EBAD20 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B51DFB6E1425EB2C00EBAD20 /* MainViewController.m */; };
+		B51DFB821426093000EBAD20 /* photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B51DFB811426093000EBAD20 /* photo.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B51DFB4B1425EA0300EBAD20 /* PhotoViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B51DFB4F1425EA0300EBAD20 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B51DFB511425EA0300EBAD20 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B51DFB531425EA0300EBAD20 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B51DFB571425EA0300EBAD20 /* PhotoViewer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhotoViewer-Info.plist"; sourceTree = "<group>"; };
+		B51DFB591425EA0300EBAD20 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B51DFB5B1425EA0300EBAD20 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B51DFB5D1425EA0300EBAD20 /* PhotoViewer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhotoViewer-Prefix.pch"; sourceTree = "<group>"; };
+		B51DFB5E1425EA0300EBAD20 /* PhotoViewerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoViewerAppDelegate.h; sourceTree = "<group>"; };
+		B51DFB5F1425EA0300EBAD20 /* PhotoViewerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoViewerAppDelegate.m; sourceTree = "<group>"; };
+		B51DFB621425EA0300EBAD20 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		B51DFB6B1425EA8800EBAD20 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		B51DFB6D1425EB2C00EBAD20 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		B51DFB6E1425EB2C00EBAD20 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		B51DFB811426093000EBAD20 /* photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B51DFB481425EA0300EBAD20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51DFB6C1425EA8800EBAD20 /* CoreMedia.framework in Frameworks */,
+				B51DFB501425EA0300EBAD20 /* UIKit.framework in Frameworks */,
+				B51DFB521425EA0300EBAD20 /* Foundation.framework in Frameworks */,
+				B51DFB541425EA0300EBAD20 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B51DFB401425EA0300EBAD20 = {
+			isa = PBXGroup;
+			children = (
+				B51DFB801426092000EBAD20 /* Resources */,
+				B51DFB551425EA0300EBAD20 /* PhotoViewer */,
+				B51DFB4E1425EA0300EBAD20 /* Frameworks */,
+				B51DFB4C1425EA0300EBAD20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B51DFB4C1425EA0300EBAD20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B51DFB4B1425EA0300EBAD20 /* PhotoViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B51DFB4E1425EA0300EBAD20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B51DFB6B1425EA8800EBAD20 /* CoreMedia.framework */,
+				B51DFB4F1425EA0300EBAD20 /* UIKit.framework */,
+				B51DFB511425EA0300EBAD20 /* Foundation.framework */,
+				B51DFB531425EA0300EBAD20 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B51DFB551425EA0300EBAD20 /* PhotoViewer */ = {
+			isa = PBXGroup;
+			children = (
+				B51DFB5E1425EA0300EBAD20 /* PhotoViewerAppDelegate.h */,
+				B51DFB5F1425EA0300EBAD20 /* PhotoViewerAppDelegate.m */,
+				B51DFB611425EA0300EBAD20 /* MainWindow.xib */,
+				B51DFB561425EA0300EBAD20 /* Supporting Files */,
+				B51DFB6D1425EB2C00EBAD20 /* MainViewController.h */,
+				B51DFB6E1425EB2C00EBAD20 /* MainViewController.m */,
+			);
+			path = PhotoViewer;
+			sourceTree = "<group>";
+		};
+		B51DFB561425EA0300EBAD20 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B51DFB571425EA0300EBAD20 /* PhotoViewer-Info.plist */,
+				B51DFB581425EA0300EBAD20 /* InfoPlist.strings */,
+				B51DFB5B1425EA0300EBAD20 /* main.m */,
+				B51DFB5D1425EA0300EBAD20 /* PhotoViewer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B51DFB801426092000EBAD20 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B51DFB811426093000EBAD20 /* photo.jpg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B51DFB4A1425EA0300EBAD20 /* PhotoViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B51DFB661425EA0300EBAD20 /* Build configuration list for PBXNativeTarget "PhotoViewer" */;
+			buildPhases = (
+				B51DFB471425EA0300EBAD20 /* Sources */,
+				B51DFB481425EA0300EBAD20 /* Frameworks */,
+				B51DFB491425EA0300EBAD20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoViewer;
+			productName = PhotoViewer;
+			productReference = B51DFB4B1425EA0300EBAD20 /* PhotoViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B51DFB421425EA0300EBAD20 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = B51DFB451425EA0300EBAD20 /* Build configuration list for PBXProject "PhotoViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B51DFB401425EA0300EBAD20;
+			productRefGroup = B51DFB4C1425EA0300EBAD20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B51DFB4A1425EA0300EBAD20 /* PhotoViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B51DFB491425EA0300EBAD20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51DFB5A1425EA0300EBAD20 /* InfoPlist.strings in Resources */,
+				B51DFB631425EA0300EBAD20 /* MainWindow.xib in Resources */,
+				B51DFB821426093000EBAD20 /* photo.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B51DFB471425EA0300EBAD20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51DFB5C1425EA0300EBAD20 /* main.m in Sources */,
+				B51DFB601425EA0300EBAD20 /* PhotoViewerAppDelegate.m in Sources */,
+				B51DFB6F1425EB2C00EBAD20 /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B51DFB581425EA0300EBAD20 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B51DFB591425EA0300EBAD20 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B51DFB611425EA0300EBAD20 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B51DFB621425EA0300EBAD20 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B51DFB641425EA0300EBAD20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B51DFB651425EA0300EBAD20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B51DFB671425EA0300EBAD20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoViewer/PhotoViewer-Prefix.pch";
+				INFOPLIST_FILE = "PhotoViewer/PhotoViewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B51DFB681425EA0300EBAD20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoViewer/PhotoViewer-Prefix.pch";
+				INFOPLIST_FILE = "PhotoViewer/PhotoViewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B51DFB451425EA0300EBAD20 /* Build configuration list for PBXProject "PhotoViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B51DFB641425EA0300EBAD20 /* Debug */,
+				B51DFB651425EA0300EBAD20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B51DFB661425EA0300EBAD20 /* Build configuration list for PBXNativeTarget "PhotoViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B51DFB671425EA0300EBAD20 /* Debug */,
+				B51DFB681425EA0300EBAD20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B51DFB421425EA0300EBAD20 /* Project object */;
+}

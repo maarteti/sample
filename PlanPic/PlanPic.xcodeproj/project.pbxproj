@@ -1,0 +1,269 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B591C457147BCBF600C3828E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B591C456147BCBF600C3828E /* UIKit.framework */; };
+		B591C459147BCBF600C3828E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B591C458147BCBF600C3828E /* Foundation.framework */; };
+		B591C45B147BCBF600C3828E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B591C45A147BCBF600C3828E /* CoreGraphics.framework */; };
+		B591C461147BCBF600C3828E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B591C45F147BCBF600C3828E /* InfoPlist.strings */; };
+		B591C463147BCBF600C3828E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B591C462147BCBF600C3828E /* main.m */; };
+		B591C467147BCBF600C3828E /* PlanPicAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B591C466147BCBF600C3828E /* PlanPicAppDelegate.m */; };
+		B591C46F147BCCCC00C3828E /* MenuBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B591C46E147BCCCC00C3828E /* MenuBarController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B591C452147BCBF600C3828E /* PlanPic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanPic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B591C456147BCBF600C3828E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B591C458147BCBF600C3828E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B591C45A147BCBF600C3828E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B591C45E147BCBF600C3828E /* PlanPic-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlanPic-Info.plist"; sourceTree = "<group>"; };
+		B591C460147BCBF600C3828E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B591C462147BCBF600C3828E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B591C464147BCBF600C3828E /* PlanPic-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlanPic-Prefix.pch"; sourceTree = "<group>"; };
+		B591C465147BCBF600C3828E /* PlanPicAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlanPicAppDelegate.h; sourceTree = "<group>"; };
+		B591C466147BCBF600C3828E /* PlanPicAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlanPicAppDelegate.m; sourceTree = "<group>"; };
+		B591C46D147BCCCC00C3828E /* MenuBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuBarController.h; sourceTree = "<group>"; };
+		B591C46E147BCCCC00C3828E /* MenuBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuBarController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B591C44F147BCBF600C3828E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B591C457147BCBF600C3828E /* UIKit.framework in Frameworks */,
+				B591C459147BCBF600C3828E /* Foundation.framework in Frameworks */,
+				B591C45B147BCBF600C3828E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B591C447147BCBF600C3828E = {
+			isa = PBXGroup;
+			children = (
+				B591C45C147BCBF600C3828E /* PlanPic */,
+				B591C455147BCBF600C3828E /* Frameworks */,
+				B591C453147BCBF600C3828E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B591C453147BCBF600C3828E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B591C452147BCBF600C3828E /* PlanPic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B591C455147BCBF600C3828E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B591C456147BCBF600C3828E /* UIKit.framework */,
+				B591C458147BCBF600C3828E /* Foundation.framework */,
+				B591C45A147BCBF600C3828E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B591C45C147BCBF600C3828E /* PlanPic */ = {
+			isa = PBXGroup;
+			children = (
+				B591C465147BCBF600C3828E /* PlanPicAppDelegate.h */,
+				B591C466147BCBF600C3828E /* PlanPicAppDelegate.m */,
+				B591C45D147BCBF600C3828E /* Supporting Files */,
+				B591C46D147BCCCC00C3828E /* MenuBarController.h */,
+				B591C46E147BCCCC00C3828E /* MenuBarController.m */,
+			);
+			path = PlanPic;
+			sourceTree = "<group>";
+		};
+		B591C45D147BCBF600C3828E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B591C45E147BCBF600C3828E /* PlanPic-Info.plist */,
+				B591C45F147BCBF600C3828E /* InfoPlist.strings */,
+				B591C462147BCBF600C3828E /* main.m */,
+				B591C464147BCBF600C3828E /* PlanPic-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B591C451147BCBF600C3828E /* PlanPic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B591C46A147BCBF600C3828E /* Build configuration list for PBXNativeTarget "PlanPic" */;
+			buildPhases = (
+				B591C44E147BCBF600C3828E /* Sources */,
+				B591C44F147BCBF600C3828E /* Frameworks */,
+				B591C450147BCBF600C3828E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlanPic;
+			productName = PlanPic;
+			productReference = B591C452147BCBF600C3828E /* PlanPic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B591C449147BCBF600C3828E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = B591C44C147BCBF600C3828E /* Build configuration list for PBXProject "PlanPic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B591C447147BCBF600C3828E;
+			productRefGroup = B591C453147BCBF600C3828E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B591C451147BCBF600C3828E /* PlanPic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B591C450147BCBF600C3828E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B591C461147BCBF600C3828E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B591C44E147BCBF600C3828E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B591C463147BCBF600C3828E /* main.m in Sources */,
+				B591C467147BCBF600C3828E /* PlanPicAppDelegate.m in Sources */,
+				B591C46F147BCCCC00C3828E /* MenuBarController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B591C45F147BCBF600C3828E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B591C460147BCBF600C3828E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B591C468147BCBF600C3828E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B591C469147BCBF600C3828E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B591C46B147BCBF600C3828E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlanPic/PlanPic-Prefix.pch";
+				INFOPLIST_FILE = "PlanPic/PlanPic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B591C46C147BCBF600C3828E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlanPic/PlanPic-Prefix.pch";
+				INFOPLIST_FILE = "PlanPic/PlanPic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B591C44C147BCBF600C3828E /* Build configuration list for PBXProject "PlanPic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B591C468147BCBF600C3828E /* Debug */,
+				B591C469147BCBF600C3828E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B591C46A147BCBF600C3828E /* Build configuration list for PBXNativeTarget "PlanPic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B591C46B147BCBF600C3828E /* Debug */,
+				B591C46C147BCBF600C3828E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B591C449147BCBF600C3828E /* Project object */;
+}
